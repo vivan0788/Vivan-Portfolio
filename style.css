@@ -60,7 +60,7 @@ nav ul li a:hover { color: var(--main-color); }
 }
 
 .contact-wrapper {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 50px;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 40px;
 }
 
 .contact-form input, .contact-form textarea {
