@@ -10,14 +10,14 @@ body { background-color: var(--bg-dark); color: var(--text-white); line-height: 
 
 /* Making each section long */
 .full-section {
-    min-height: 70vh;
+    min-height: 60vh;
     padding: 100px 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.bg-alt { background-color: var(--bg-light); }
+.bg-alt { background-color: var(--bg-dark); }
 
 nav {
     display: flex; justify-content: space-between; align-items: center;
