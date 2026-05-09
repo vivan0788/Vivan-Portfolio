@@ -1,3 +1,18 @@
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Isse photo gol ho jayegi */
+    border: 4px solid #00adb5;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.about-text {
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+    color: #ccc;
+}
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
 body { background-color: #121212; color: white; scroll-behavior: smooth; }
 
