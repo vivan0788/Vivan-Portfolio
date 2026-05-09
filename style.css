@@ -1,3 +1,27 @@
+/* Social Links Container */
+.social-links {
+    margin: 20px 0;
+}
+
+.social-links a {
+    color: white;
+    font-size: 24px;
+    margin: 0 15px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+/* Hover Effect: Jab mouse le jayein toh color badle */
+.social-links a:hover {
+    color: #00adb5;
+    transform: translateY(-5px);
+    display: inline-block;
+}
+
+/* LinkedIn specific color on hover (Optional) */
+.social-links a .fa-linkedin:hover { color: #0077b5; }
+/* Instagram specific color on hover (Optional) */
+.social-links a .fa-instagram:hover { color: #e1306c; }
 .profile-img {
     width: 150px;
     height: 150px;
